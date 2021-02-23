@@ -67,13 +67,13 @@ public class MainActivity extends AppCompatActivity {
         Uri uri;
         switch (item.toString()) {
             case "GitHub":
-                uri = Uri.parse("https://github.com/eltiwany/MCalculator");
+                uri = Uri.parse("https://github.com/eltiwany/m-calculator");
                 intent = new Intent(Intent.ACTION_VIEW, uri);
                 break;
             case "Contact Developer":
                 uri = Uri.parse("tel:+255655464655");
                 intent = new Intent();
-                intent.setAction(Intent.ACTION_FACTORY_TEST);
+                intent.setAction(Intent.ACTION_VIEW);
                 intent.setData(uri);
                 break;
         }

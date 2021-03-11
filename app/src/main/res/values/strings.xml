@@ -1,5 +1,6 @@
 <resources>
     <string name="app_name">MCalculator</string>
+    <string name="app_contributers">Contributers</string>
     <string name="ac">AC</string>
     <string name="del">DEL</string>
     <string name="plus_or_minus">+/-</string>
